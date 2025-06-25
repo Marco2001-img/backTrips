@@ -37,18 +37,6 @@ YAML
 Objective
 To provide a modern, scalable, and secure solution for the mobility of people and delivery of goods, especially in environments where logistical efficiency, traceability, and ease of administration are essential.
 
-Local Installation (Optional)
-bash
-Copiar
-Editar
-# Clone the repository
-git clone https://github.com/your-username/lopezgar-api.git
-cd lopezgar-api
-
-# Create and activate a virtual environment
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-
 # Install project dependencies
 pip install -r requirements.txt
 
