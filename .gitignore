@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+env/
+ENV/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# Editor settings
+.vscode/
+.idea/
+*.swo
+*.swp
+.DS_Store
+
+# Docker files and data
+docker-compose.override.yml
+*.env
+docker_postgres_data/
+
+# Compiled files (redundant, but added for deep folders)
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Django migrations (optional: keep if not versioning)
+**/migrations/
+!**/migrations/__init__.py
